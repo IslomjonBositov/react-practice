@@ -1,11 +1,11 @@
-import "./Footer.css"
+import "./Footer.css";
 
-function Footer(){
-  return(
-    <footer className='footer'>
-      <p>This site was made by Islomjon</p>
+function Footer({ end }) {
+  return (
+    <footer className="footer">
+      <p>{end}</p>
     </footer>
-  )
+  );
 }
 
 export default Footer;
